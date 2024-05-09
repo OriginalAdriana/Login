@@ -1,0 +1,64 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: sans-sheriff;
+}
+body{
+	background-image: url(gato.jpg);
+	background-size: cover;
+	background-position: center;
+}
+main{
+	width: 100%;
+	padding: 20px;
+	margin: auto;
+	margin-top: 100px;
+}
+.contenedor__todo{
+	width: 100%;
+	max-width: 800px;
+	margin: auto;
+	position: relative;
+}
+.contenedor__login-register{
+	display: flex;
+	align-items: center;
+	width: 100%;
+	max-width: 380px;
+	position: relative;
+	top: 100px;
+	left: 10px;
+}
+.contenedor__login-register form{
+		width: 100%;
+		padding: 80px 20px;
+		background: transparent;
+		position: absolute;
+		border-radius: 20px;
+}
+.contenedor__login-register form h2{
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 20px;
+	color: pink;
+}
+.contenedor__login-register form input{
+	width: 100%;
+	margin-top: 20px;
+	padding: 10px;
+	border: none;
+	background: #F2F2F2;
+	font-size: 16px;
+	outline: none;
+}
+.contenedor__login-register form button{
+	padding: 10px 40px;
+	margin-top: 40px;
+	border: none;
+	font-size: 14px;
+	background: pink;
+	color: white;
+	cursor: pointer;
+}
